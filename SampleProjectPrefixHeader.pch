@@ -1,0 +1,28 @@
+//
+//  SampleProjectPrefixHeader.pch
+//  Sample Project
+//
+//  Created by _Genesis_ on 6/13/16.
+//  Copyright © 2016 Genesis. All rights reserved.
+//
+
+#ifndef SampleProjectPrefixHeader_pch
+#define SampleProjectPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//Including hedaer file for all file in project
+#import "AppDelegate.h"
+#import "NSString+BFKit.h"
+#import <AFNetworking/AFNetworking.h>
+#import "MBProgressHUD.h"
+#import "UITextView+Placeholder.h"
+#import "UIImageView+WebCache.h"
+#import "ConstantString.h"
+
+//#import <Realm/Realm.h>
+//#import "RealmUtil.h"
+
+
+#endif /* SampleProjectPrefixHeader_pch */
