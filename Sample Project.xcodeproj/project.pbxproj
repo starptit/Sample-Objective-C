@@ -24,6 +24,8 @@
 		A0962D3D1D0F05EE007F404E /* NSString+BFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0962D3C1D0F05EE007F404E /* NSString+BFKit.m */; };
 		A0962D3F1D0F0616007F404E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A0962D3E1D0F0616007F404E /* MBProgressHUD.m */; };
 		A0962D451D0F0D42007F404E /* APIConnectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0962D441D0F0D42007F404E /* APIConnectManager.m */; };
+		EF86922A1D128A9800259A77 /* UIView+BorderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8692271D128A9800259A77 /* UIView+BorderHelper.m */; };
+		EF86922B1D128A9800259A77 /* UIView+RadiusCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8692291D128A9800259A77 /* UIView+RadiusCorner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,10 @@
 		A0962D421D0F08FB007F404E /* SampleProjectPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleProjectPrefixHeader.pch; sourceTree = "<group>"; };
 		A0962D431D0F0D42007F404E /* APIConnectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConnectManager.h; sourceTree = "<group>"; };
 		A0962D441D0F0D42007F404E /* APIConnectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIConnectManager.m; sourceTree = "<group>"; };
+		EF8692261D128A9800259A77 /* UIView+BorderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BorderHelper.h"; sourceTree = "<group>"; };
+		EF8692271D128A9800259A77 /* UIView+BorderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BorderHelper.m"; sourceTree = "<group>"; };
+		EF8692281D128A9800259A77 /* UIView+RadiusCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RadiusCorner.h"; sourceTree = "<group>"; };
+		EF8692291D128A9800259A77 /* UIView+RadiusCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RadiusCorner.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +242,7 @@
 		A0962D121D0F009B007F404E /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				EF8692251D128A8800259A77 /* UIViewCategory */,
 				A0962D401D0F06F3007F404E /* API Connector */,
 				A0962D2A1D0F0517007F404E /* DownloadManager */,
 				A0962D2D1D0F0517007F404E /* MBProgressHUD */,
@@ -298,6 +305,17 @@
 				A0962D441D0F0D42007F404E /* APIConnectManager.m */,
 			);
 			path = "API Connector";
+			sourceTree = "<group>";
+		};
+		EF8692251D128A8800259A77 /* UIViewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				EF8692261D128A9800259A77 /* UIView+BorderHelper.h */,
+				EF8692271D128A9800259A77 /* UIView+BorderHelper.m */,
+				EF8692281D128A9800259A77 /* UIView+RadiusCorner.h */,
+				EF8692291D128A9800259A77 /* UIView+RadiusCorner.m */,
+			);
+			path = UIViewCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,12 +501,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0962D161D0F009B007F404E /* InAppPurchaseManager.m in Sources */,
+				EF86922B1D128A9800259A77 /* UIView+RadiusCorner.m in Sources */,
 				A0338C961D0E9AC800C909FB /* ConstantString.m in Sources */,
 				A0338C651D0E905800C909FB /* ViewController.m in Sources */,
 				A0338C621D0E905800C909FB /* AppDelegate.m in Sources */,
 				A0962D3F1D0F0616007F404E /* MBProgressHUD.m in Sources */,
 				A0338C5F1D0E905800C909FB /* main.m in Sources */,
 				A0962D361D0F0517007F404E /* DownloadManager.m in Sources */,
+				EF86922A1D128A9800259A77 /* UIView+BorderHelper.m in Sources */,
 				A0962D3D1D0F05EE007F404E /* NSString+BFKit.m in Sources */,
 				A0962D391D0F0517007F404E /* UITextView+Placeholder.m in Sources */,
 				A0962D451D0F0D42007F404E /* APIConnectManager.m in Sources */,

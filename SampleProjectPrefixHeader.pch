@@ -20,6 +20,8 @@
 #import "UITextView+Placeholder.h"
 #import "UIImageView+WebCache.h"
 #import "ConstantString.h"
+#import "UIView+BorderHelper.h"
+#import "UIView+RadiusCorner.h"
 
 //#import <Realm/Realm.h>
 //#import "RealmUtil.h"
