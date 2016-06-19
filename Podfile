@@ -13,6 +13,7 @@ pod 'AFNetworking', '~> 3.0'
 # pod 'FBSDKLoginKit'
 # pod 'Realm'
 pod 'SDWebImage', '~>3.8'
+pod 'JSONModel'
 
 
 end
